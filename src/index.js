@@ -1,8 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+
+import Header from './components/Header/Header';
+import Subnav from './components/Subnav/Subnav';
+import Content from './components/Content/Content';
+import Sidemenu from './components/Sidemenu/Sidemenu';
 import registerServiceWorker from './registerServiceWorker';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render(
+    <div>
+        <Header />
+        <Subnav />
+        <Content />
+        <Sidemenu />
+    </div>, document.getElementById('root'));
+
 registerServiceWorker();
