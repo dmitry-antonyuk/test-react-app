@@ -1,25 +1,222 @@
-.Header {
+
+/*rest css*/
+
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+/*end rest css*/
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+}
+a {
+    font-family: 'Roboto', sans-serif;
+}
+button:hover,
+a:hover {
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.header {
+    padding-left: 15px;
+    padding-right: 15px;
+    height: 50px;
+    vertical-align: top;
     text-align: center;
 
-    &-header {
-       background-color: #222;
-       height: 150px;
-       padding: 20px;
-       color: white;
+
+
+    &_blue-theme {
+         background: #4688f1;
+         color: #fff;
      }
 
-    &-logo {
-        animation: App-logo-spin infinite 20s linear;
-        height: 80px;
-    }
+}
+.logo {
+    display: inline-block;
+    max-height: 50px;
+    &_left {
+        float: left;
+     }
+    &__img {
 
-    &-intro {
-        font-size: 8px;
-        display: none;
     }
 }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+.top-nav {
+    display: inline-block;
+
+    height: 50px;
+
+    $_centered {
+
+
+     }
+
+    $top-nav_blue-theme {
+        background: #a5c4f5;
+
+
+    }
+
+
+    &__link {
+        transition: 0.3s;
+        cursor: pointer;
+        display: inline-block;
+        line-height: 50px;
+        color: #fff;
+        font-size: 15px;
+        padding: 0 25px;
+
+
+        &_active {
+            background: #fff;
+            color: #4688f1;
+        }
+        &:hover {
+            background: #7baeff;
+         }
+
+    }
+}
+.user-info {
+    display: inline-block;
+    height: 50px;
+    &_right {
+         float: right;
+     }
+}
+
+.button-icon {
+    height: 50px;
+    line-height: 50px;
+    border: 0;
+    background: transparent;
+    color: #fff;
+    font-size: 20px;
+    width: 50px;
+    text-align: center;
+    &:hover {
+    transition: 0.3s;
+    background: #7baeff;
+    }
+
+
+}
+
+.button-icon-text {
+    background: transparent;
+    vertical-align: top;
+    color: #fff;
+    height: 50px;
+    line-height: 50px;
+    border: 0;
+    display: inline-block;
+    padding: 0;
+    margin:0;
+    outline: none;
+    box-sizing: border-box;
+
+
+    &__icon {
+         height: 50px;
+         line-height: 50px!important;
+         border: 0;
+         background: transparent;
+         color: #fff;
+         font-size: 1.4rem;
+         width: 50px;
+         text-align: center;
+         vertical-align: top;
+         display: inline-block;
+    }
+    &__text{
+        display: inline-block;
+        height: 50px;
+        line-height: 50px;
+        font-size: 1rem;
+        padding: 0 15px 0 5px;
+    }
+    &:hover {
+         transition: 0.3s;
+         background: #7baeff;
+    }
+}
+
+.button-icon_ring-notification {
+    position: relative;
+    &:after {
+        content: "";
+        position: absolute;
+        width: 6px;
+        height: 6px;
+        background: #fd7e55;
+        top: 10px;
+        right: 25%;
+        border-radius: 50%;
+    }
 }

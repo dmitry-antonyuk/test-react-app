@@ -19,8 +19,8 @@ class Sidemenu extends Component {
                       <span className="task-card__client-time-headline">Client time</span>
                       <span className="task-card__client-time">12:00</span>
                       <span className="task-card__separator"> </span>
-                      <a className="task-card__headline" href="javascript:void(0);" >Send FTD offer to the Eric Shevchenko</a>
-                      <a className="task-card__customer" href="javascript:void(0);" >Eric Shevchenko</a>
+                      <a className="task-card__headline" href="" >Send FTD offer to the Eric Shevchenko</a>
+                      <a className="task-card__customer" href="" >Eric Shevchenko</a>
                       <button className="task-card__status-buttn task-card__status-buttn__done"><img src="" alt=""/></button>
                   </div>
               </div>

@@ -4,38 +4,30 @@ import './Header.css';
 class Header extends Component {
   render() {
     return (
-      <div className="Header">
-          <div className="header">
-            <div className="logo">
+      <div className="Headerx">
+          <div className="header header_blue-theme ">
+            <div className="logo logo_left">
                 <img className="logo__img"  src="" alt=""/>
+                logo
             </div>
-            <ul className="top-nav">
-                <li className="top-nav__link-wrap">
+            <nav className="top-nav top-nav_blue-theme top-nav_centered">
                     <a className="top-nav__link">Leads</a>
-                </li>
-                <li className="top-nav__link-wrap">
                     <a className="top-nav__link">Clients</a>
-                </li>
-                <li className="top-nav__link-wrap">
                     <a className="top-nav__link">Transactions</a>
-                </li>
-                <li className="top-nav__link-wrap">
                     <a className="top-nav__link">Withdrawals</a>
-                </li>
-                <li className="top-nav__link-wrap">
                     <a className="top-nav__link top-nav__link_active">Settings</a>
-                </li>
-            </ul>
-            <div className="user-info">
-                <div className="user-info__settings"></div>
-                <div className="user-info__person">
-                    <div className="user-info__person-icon"></div>
-                    <div className="user-info__person-name"></div>
-                </div>
-                <div className="user-info__separator"></div>
-                <div className="user-info__updates">
-                    <div className="user-info__updates"></div>
-                </div>
+            </nav>
+            <div className="user-info user-info_right">
+                <button className="button-icon button-icon_button-icon icon-settings">
+                </button>
+                <button className="button-icon-text button-icon-text_blue-theme ">
+                    <span className="button-icon-text__icon icon-person"></span>
+                    <span className="button-icon-text__text">Alexander Litvinov</span>
+                </button>
+                <span className="user-info__separator"></span>
+                <button className="button-icon button-icon_ring-notification icon-ring ">
+
+                </button>
             </div>
           </div>
       </div>
