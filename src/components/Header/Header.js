@@ -1,14 +1,16 @@
 import React, { Component } from 'react';
 import './Header.css';
+import logo from '../../img/logo.png';
+
 
 class Header extends Component {
   render() {
     return (
-      <div className="Headerx">
+      <div className="Header">
           <div className="header header_blue-theme ">
             <div className="logo logo_left">
-                <img className="logo__img"  src="" alt=""/>
-                logo
+                <img className="logo__img"  src={logo} alt=""/>
+
             </div>
             <nav className="top-nav top-nav_blue-theme top-nav_centered">
                     <a className="top-nav__link">Leads</a>

@@ -6,9 +6,9 @@ class Content extends Component {
         return (
             <div className="Content">
                 <div className="content">
-                    <table className="table">
-                        <thead className="table__header">
-                        <tr className="table__row table__row_header">
+                    <table className="table table_leads">
+                        <thead className="table__header table__header_leads">
+                        <tr className="table__row table__row_leads table__row_header">
                             <th className="table__cell table__cell_header"></th>
                             <th className="table__cell table__cell_header">Lead ID</th>
                             <th className="table__cell table__cell_header">Created time</th>
@@ -25,72 +25,76 @@ class Content extends Component {
                         </tr>
                         <tr className="table__row table__row_header table__row_header table__row_material">
                             <td className="table__cell table__cell_header-units">
-                                <input type="checkbox"  name="subscribe" value="1"/>
+                                <div className="checkbox">
+                                    <input className="checkbox__input" type="checkbox" id="test1" />
+                                    <label className="checkbox__lable " for="test1"></label>
+
+                                </div>
                             </td>
                             <td className="table__cell table__cell_header-units">
                                 <form className="search-form">
-                                    <input className="search-form__input"/>
-                                    <button className="search-form__button"></button>
+                                    <input className="search-form__input" placeholder="Search"/>
+                                    <button className="search-form__button icon__search"></button>
                                 </form>
                             </td>
                             <td className="table__cell table__cell_header-units">
                                 <form className="search-form">
-                                    <input className="search-form__input"/>
-                                    <button className="search-form__button"></button>
+                                    <input className="search-form__input" placeholder="Search"/>
+                                    <button className="search-form__button icon__search"></button>
                                 </form>
                             </td>
                             <td className="table__cell table__cell_header-units">
                                 <form className="search-form">
-                                    <input className="search-form__input"/>
-                                    <button className="search-form__button"></button>
+                                    <input className="search-form__input" placeholder="Search"/>
+                                    <button className="search-form__button icon__search"></button>
                                 </form>
                             </td>
                             <td className="table__cell table__cell_header-units">
                                 <form className="search-form">
-                                    <input className="search-form__input"/>
-                                    <button className="search-form__button"></button>
+                                    <input className="search-form__input" placeholder="Search"/>
+                                    <button className="search-form__button icon__search"></button>
                                 </form>
                             </td>
                             <td className="table__cell table__cell_header-units">
                                 <form className="search-form">
-                                    <input className="search-form__input"/>
-                                    <button className="search-form__button"></button>
+                                    <input className="search-form__input" placeholder="Search"/>
+                                    <button className="search-form__button icon__search"></button>
                                 </form>
                             </td>
                             <td className="table__cell table__cell_header-units">
                                 <form className="search-form">
-                                    <input className="search-form__input"/>
-                                    <button className="search-form__button"></button>
+                                    <input className="search-form__input" placeholder="Search"/>
+                                    <button className="search-form__button icon__search"></button>
                                 </form>
                             </td>
                             <td className="table__cell table__cell_header-units">
                                 <form className="search-form">
-                                    <input className="search-form__input"/>
-                                    <button className="search-form__button"></button>
+                                    <input className="search-form__input" placeholder="Search"/>
+                                    <button className="search-form__button icon__search"></button>
                                 </form>
                             </td>
                             <td className="table__cell table__cell_header-units">
                                 <form className="search-form">
-                                    <input className="search-form__input"/>
-                                    <button className="search-form__button"></button>
+                                    <input className="search-form__input" placeholder="Search"/>
+                                    <button className="search-form__button icon__search"></button>
                                 </form>
                             </td>
                             <td className="table__cell table__cell_header-units">
                                 <form className="search-form">
-                                    <input className="search-form__input"/>
-                                    <button className="search-form__button"></button>
+                                    <input className="search-form__input" placeholder="Search"/>
+                                    <button className="search-form__button icon__search"></button>
                                 </form>
                             </td>
                             <td className="table__cell table__cell_header-units">
                                 <form className="search-form">
-                                    <input className="search-form__input"/>
-                                    <button className="search-form__button"></button>
+                                    <input className="search-form__input" placeholder="Search"/>
+                                    <button className="search-form__button icon__search"></button>
                                 </form>
                             </td>
                             <td className="table__cell table__cell_header-units">
                                 <form className="search-form">
-                                    <input className="search-form__input"/>
-                                    <button className="search-form__button"></button>
+                                    <input className="search-form__input" id="test" placeholder="Search"/>
+                                    <button className="search-form__button icon__search"></button>
                                 </form>
                             </td>
                         </tr>
@@ -98,21 +102,71 @@ class Content extends Component {
                         <tbody className="table__tbody">
                         <tr className="table__row table__row_body">
                             <td className="table__cell table__cell_header-units">
-                                <input type="checkbox"  name="subscribe" value="1"/>
+                                <div className="checkbox">
+                                    <input className="checkbox__input" type="checkbox" id="test2" />
+                                    <label className="checkbox__lable " for="test2"></label>
+
+                                </div>
                             </td>
                             <td className="table__cell table__cell_body">LAA6413 </td>
                             <td className="table__cell table__cell_body"> 2017-08-28 16:52:21</td>
-                            <td className="table__cell table__cell_body">Vladimir </td>
-                            <td className="table__cell table__cell_body">Cheredavenkovich </td>
+                            <td className="table__cell table__cell_body"><span className="highlighted">Vladimir</span> </td>
+                            <td className="table__cell table__cell_body"><span className="highlighted">Cheredavenkovich </span></td>
                             <td className="table__cell table__cell_body">+380445412678 </td>
-                            <td className="table__cell table__cell_body">vladimir.cher@gmail.com </td>
+                            <td className="table__cell table__cell_body"><span className="highlighted">vladimir.cher@gmail.com </span></td>
                             <td className="table__cell table__cell_body">Ukraine </td>
                             <td className="table__cell table__cell_body">Mon, 18:54 </td>
                             <td className="table__cell table__cell_body">2017-05-20 12:29 </td>
                             <td className="table__cell table__cell_body">Some data 1 </td>
                             <td className="table__cell table__cell_body">Some data 2 </td>
                         </tr>
+                        <tr className="table__row table__row_body">
+                            <td className="table__cell table__cell_header-units">
+                                <div className="checkbox">
+                                    <input className="checkbox__input" type="checkbox" id="test3" />
+                                    <label className="checkbox__lable " for="test3"></label>
+
+                                </div>
+                            </td>
+                            <td className="table__cell table__cell_body">LAA6413 </td>
+                            <td className="table__cell table__cell_body"> 2017-08-28 16:52:21</td>
+                            <td className="table__cell table__cell_body"><span className="highlighted">Vladimir</span> </td>
+                            <td className="table__cell table__cell_body"><span className="highlighted">Cheredavenkovich </span></td>
+                            <td className="table__cell table__cell_body">+380445412678 </td>
+                            <td className="table__cell table__cell_body"><span className="highlighted">vladimir.cher@gmail.com </span></td>
+                            <td className="table__cell table__cell_body">Ukraine </td>
+                            <td className="table__cell table__cell_body">Mon, 18:54 </td>
+                            <td className="table__cell table__cell_body">2017-05-20 12:29 </td>
+                            <td className="table__cell table__cell_body">Some data 1 </td>
+                            <td className="table__cell table__cell_body">Some data 2 </td>
+                        </tr>
+                        <tr className="table__row table__row_body">
+                            <td className="table__cell table__cell_header-units">
+                                <div className="checkbox">
+                                    <input className="checkbox__input" type="checkbox" id="test4" />
+                                    <label className="checkbox__lable " for="test4"></label>
+
+                                </div>
+                            </td>
+                            <td className="table__cell table__cell_body">LAA6413 </td>
+                            <td className="table__cell table__cell_body"> 2017-08-28 16:52:21</td>
+                            <td className="table__cell table__cell_body"><span className="highlighted">Vladimir</span> </td>
+                            <td className="table__cell table__cell_body"><span className="highlighted">Cheredavenkovich </span></td>
+                            <td className="table__cell table__cell_body">+380445412678 </td>
+                            <td className="table__cell table__cell_body"><span className="highlighted">vladimir.cher@gmail.com </span></td>
+                            <td className="table__cell table__cell_body">Ukraine </td>
+                            <td className="table__cell table__cell_body">Mon, 18:54 </td>
+                            <td className="table__cell table__cell_body">2017-05-20 12:29 </td>
+                            <td className="table__cell table__cell_body">Some data 1 </td>
+                            <td className="table__cell table__cell_body">Some data 2 </td>
+                        </tr>
+
+
+
+
+
                         </tbody>
+
                     </table>
                 </div>
 
