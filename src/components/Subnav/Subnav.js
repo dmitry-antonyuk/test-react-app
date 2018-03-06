@@ -29,47 +29,84 @@ class Subnav extends Component {
                   <a className="navigation-tab__item" href="">5+ No Answer <span className="navigation-tab__category-data">400</span></a>
               </nav>
               <div className="menu-container menu-container_right">
-                  {/*<div className="menu-burger menu-burger_right menu-burger_container">*/}
+
                   <button type="button" className="menu-burger menu-burger_right" onClick={this.showMenu}>
-                      <img className="menu-burger" src={menu} alt=""/>
+                      <img className="menu-burger__img" src={menu} alt=""/>
                   </button>
-                    <div className="clearfix"></div>
 
-
-                  <div className="sidebar-menux" >
                       <div className="sidebar-menu sidebar-menu_right" id="menu">
                           <div className="sidebar-menu__header">
                               <h3 className="sidebar-menu__headline">To DO</h3>
                               <span className="sidebar-menu__hide" onClick={this.hideMenu}>
-                                  {/*<img className="sidebar-menu__hide-icon" src="" alt=""/>*/}
-X
                               </span>
                           </div>
-                          <div className="sidebar-menu__subtitle">
-                              <span className="sidebar-menu__day">Today (3)</span>
-                              <span className="sidebar-menu__date sidebar-menu__date_right">22/2</span>
+                          <div className="sidebar-subtitle">
+                              <span className="sidebar-subtitle__day">Today (3)</span>
+                              <span className="sidebar-subtitle__date sidebar-subtitle__date_right">22/2</span>
                           </div>
-                          <div className="task-card task-card_menu">
-                              <span className="task-card__your-time">10:00</span>
-                              <span className="task-card__client-time-headline">Client time</span>
-                              <span className="task-card__client-time">12:00</span>
-                              <span className="task-card__separator"> </span>
-                              <a className="task-card__headline" href="" >Send FTD offer to the Eric Shevchenko</a>
-                              <br/>
-                              <br/>
-                              <br/>
-                              <br/>
-                              <br/>
-                              <br/>
-                              <br/>
-                              <br/>
-                              <br/>
-                              <br/>
-                              <a className="task-card__customer" href="" >Eric Shevchenko</a>
 
+
+                          <div className="task-card task-card_menu">
+                              <div className="task-card__left-container">
+                                  <span className="task-card__your-time">10:00</span>
+                                  <span className="task-card__client-time-headline">Client time</span>
+                                  <span className="task-card__client-time">12:00</span>
+                              </div>
+                              <div className="task-card__right-container">
+                                  <a className="task-card__headline" href="" >Send FTD offer to the Eric Shevchenko</a>
+                                  <a className="task-card__customer" href="" >Eric Shevchenko</a>
+                                  <span className="task-card__is-done icon-success"></span>
+                              </div>
                           </div>
+
+                          <div className="task-card task-card_menu">
+                              <div className="task-card__left-container">
+                                  <span className="task-card__your-time">10:00</span>
+                                  <span className="task-card__client-time-headline">Client time</span>
+                                  <span className="task-card__client-time">12:00</span>
+                              </div>
+                              <div className="task-card__right-container">
+                                  <a className="task-card__headline" href="" >Send FTD offer to the Eric Shevchenko</a>
+                                  <a className="task-card__customer" href="" >Eric Shevchenko</a>
+                              </div>
+                          </div>
+
+
+                          <div className="sidebar-subtitle">
+                              <span className="sidebar-subtitle__day">Tuesday (3)</span>
+                              <span className="sidebar-subtitle__date sidebar-subtitle__date_right">22/2</span>
+                          </div>
+
+
+                          <div className="task-card task-card_menu">
+                              <div className="task-card__left-container">
+                                  <span className="task-card__your-time">10:00</span>
+                                  <span className="task-card__client-time-headline">Client time</span>
+                                  <span className="task-card__client-time">12:00</span>
+                              </div>
+                              <div className="task-card__right-container">
+                                  <a className="task-card__headline" href="" >Send FTD offer to the Eric Shevchenko</a>
+                                  <a className="task-card__customer" href="" >Eric Shevchenko</a>
+
+                              </div>
+                          </div>
+
+                          <div className="task-card task-card_menu">
+                              <div className="task-card__left-container">
+                                  <span className="task-card__your-time">10:00</span>
+                                  <span className="task-card__client-time-headline">Client time</span>
+                                  <span className="task-card__client-time">12:00</span>
+                              </div>
+                              <div className="task-card__right-container">
+                                  <a className="task-card__headline" href="" >Send FTD offer to the Eric Shevchenko</a>
+                                  <a className="task-card__customer" href="" >Eric Shevchenko</a>
+
+                              </div>
+                          </div>
+
+
                       </div>
-                  </div>
+
 
 
 

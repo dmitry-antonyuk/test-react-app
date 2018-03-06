@@ -2,15 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="02404760-bce2-4802-9d11-e4c96f617220" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/logo.png" afterPath="$PROJECT_DIR$/src/img/logo.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Content/Content.css" afterPath="$PROJECT_DIR$/src/components/Content/Content.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Content/Content.js" afterPath="$PROJECT_DIR$/src/components/Content/Content.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Header/Header.css" afterPath="$PROJECT_DIR$/src/components/Header/Header.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Header/Header.js" afterPath="$PROJECT_DIR$/src/components/Header/Header.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Subnav/Subnav.css" afterPath="$PROJECT_DIR$/src/components/Subnav/Subnav.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Subnav/Subnav.js" afterPath="$PROJECT_DIR$/src/components/Subnav/Subnav.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/icomoon.css" afterPath="$PROJECT_DIR$/src/css/icomoon.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/index.js" afterPath="$PROJECT_DIR$/src/index.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -26,8 +23,8 @@
           <file leaf-file-name="Sidemenu.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/components/Sidemenu/Sidemenu.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="493">
-                  <caret line="26" column="16" lean-forward="true" selection-start-line="6" selection-start-column="9" selection-end-line="26" selection-end-column="16" />
+                <state relative-caret-position="391">
+                  <caret line="23" column="94" lean-forward="false" selection-start-line="23" selection-start-column="65" selection-end-line="23" selection-end-column="94" />
                   <folding>
                     <element signature="e#0#41#0" expanded="true" />
                   </folding>
@@ -35,11 +32,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="Header.js" pinned="false" current-in-tab="true">
+          <file leaf-file-name="Header.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/components/Header/Header.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="0">
-                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                <state relative-caret-position="544">
+                  <caret line="32" column="18" lean-forward="false" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
                   <folding>
                     <element signature="e#0#41#0" expanded="true" />
                   </folding>
@@ -62,8 +59,8 @@
           <file leaf-file-name="Subnav.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/components/Subnav/Subnav.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-544">
-                  <caret line="16" column="36" lean-forward="false" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="36" />
+                <state relative-caret-position="1273">
+                  <caret line="108" column="0" lean-forward="false" selection-start-line="108" selection-start-column="0" selection-end-line="108" selection-end-column="0" />
                   <folding>
                     <element signature="e#0#41#0" expanded="true" />
                   </folding>
@@ -71,11 +68,21 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="Header.css" pinned="false" current-in-tab="false">
+          <file leaf-file-name="Header.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/components/Header/Header.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="2033">
-                  <caret line="236" column="20" lean-forward="false" selection-start-line="236" selection-start-column="20" selection-end-line="236" selection-end-column="20" />
+                <state relative-caret-position="362">
+                  <caret line="115" column="20" lean-forward="false" selection-start-line="115" selection-start-column="20" selection-end-line="115" selection-end-column="20" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="icomoon.css" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/css/icomoon.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="212">
+                  <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -88,8 +95,8 @@
           <file leaf-file-name="Subnav.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/components/Subnav/Subnav.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="284">
-                  <caret line="85" column="14" lean-forward="false" selection-start-line="85" selection-start-column="14" selection-end-line="85" selection-end-column="14" />
+                <state relative-caret-position="142">
+                  <caret line="118" column="21" lean-forward="false" selection-start-line="118" selection-start-column="21" selection-end-line="118" selection-end-column="21" />
                   <folding />
                 </state>
               </provider>
@@ -111,7 +118,6 @@
       <find>C:\xampp</find>
       <find>test:</find>
       <find>top-nav</find>
-      <find>user-info</find>
       <find>header</find>
       <find>display</find>
       <find>button-icon_ring-notification</find>
@@ -121,8 +127,15 @@
       <find>sub-navigation</find>
       <find>menu-burger_container</find>
       <find>.sidebar-menu</find>
-      <find>menu-burger</find>
       <find>menu-container</find>
+      <find>menu-burger</find>
+      <find>sidebar-menu</find>
+      <find>.menu-burger</find>
+      <find>button-icon</find>
+      <find>user-info__separator</find>
+      <find>ccc</find>
+      <find>user-info</find>
+      <find>000</find>
     </findStrings>
     <replaceStrings>
       <replace>className</replace>
@@ -131,6 +144,8 @@
       <replace>[type=&quot;checkbox&quot;]</replace>
       <replace>&amp;__input[type=&quot;checkbox&quot;]</replace>
       <replace>&amp;__input</replace>
+      <replace>9a9a9a</replace>
+      <replace>434343</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -162,14 +177,14 @@
         <option value="$PROJECT_DIR$/config/webpack.config.dev.js" />
         <option value="$USER_HOME$/Downloads/icomoon/demo.html" />
         <option value="$PROJECT_DIR$/src/icomoon.css" />
-        <option value="$PROJECT_DIR$/src/css/icomoon.css" />
         <option value="$PROJECT_DIR$/src/components/Content/Content.js" />
         <option value="$PROJECT_DIR$/src/components/Content/Content.css" />
-        <option value="$PROJECT_DIR$/src/components/Header/Header.js" />
-        <option value="$PROJECT_DIR$/src/components/Subnav/Subnav.js" />
         <option value="$PROJECT_DIR$/src/index.js" />
-        <option value="$PROJECT_DIR$/src/components/Header/Header.css" />
+        <option value="$PROJECT_DIR$/src/components/Header/Header.js" />
+        <option value="$PROJECT_DIR$/src/css/icomoon.css" />
+        <option value="$PROJECT_DIR$/src/components/Subnav/Subnav.js" />
         <option value="$PROJECT_DIR$/src/components/Subnav/Subnav.css" />
+        <option value="$PROJECT_DIR$/src/components/Header/Header.css" />
       </list>
     </option>
   </component>
@@ -253,6 +268,12 @@
               <item name="components" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="Subnav" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
+            <path>
+              <item name="my-test-react-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-test-react-app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="css" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -304,25 +325,24 @@
       <workItem from="1519751356881" duration="22759000" />
       <workItem from="1519986117988" duration="2040000" />
       <workItem from="1520005033922" duration="31974000" />
-      <workItem from="1520168452713" duration="28254000" />
+      <workItem from="1520168452713" duration="42441000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="85027000" />
+    <option name="totallyTimeSpent" value="99214000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18995634" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39082968" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14605543" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14605543" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Get Gist" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -346,9 +366,9 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37227073" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39082968" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14605543" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14605543" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
       <window_info id="Get Gist" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -373,12 +393,13 @@
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/src/components/Header/Header.js</url>
+          <url>file://$PROJECT_DIR$/src/components/Subnav/Subnav.js</url>
+          <line>36</line>
           <properties />
-          <option name="timeStamp" value="4" />
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="5" />
+      <option name="time" value="6" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -635,39 +656,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/css/icomoon.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="16" column="22" lean-forward="false" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Sidemenu/Sidemenu.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="26" column="16" lean-forward="true" selection-start-line="6" selection-start-column="9" selection-end-line="26" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Sidemenu/Sidemenu.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Subnav/Subnav.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-544">
-          <caret line="16" column="36" lean-forward="false" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="36" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -681,29 +674,57 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Header/Header.css">
+    <entry file="file://$PROJECT_DIR$/src/components/Header/Header.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2033">
-          <caret line="236" column="20" lean-forward="false" selection-start-line="236" selection-start-column="20" selection-end-line="236" selection-end-column="20" />
+        <state relative-caret-position="544">
+          <caret line="32" column="18" lean-forward="false" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Sidemenu/Sidemenu.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="94" lean-forward="false" selection-start-line="23" selection-start-column="65" selection-end-line="23" selection-end-column="94" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/css/icomoon.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Subnav/Subnav.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1273">
+          <caret line="108" column="0" lean-forward="false" selection-start-line="108" selection-start-column="0" selection-end-line="108" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Subnav/Subnav.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="85" column="14" lean-forward="false" selection-start-line="85" selection-start-column="14" selection-end-line="85" selection-end-column="14" />
+        <state relative-caret-position="142">
+          <caret line="118" column="21" lean-forward="false" selection-start-line="118" selection-start-column="21" selection-end-line="118" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Header/Header.js">
+    <entry file="file://$PROJECT_DIR$/src/components/Header/Header.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="362">
+          <caret line="115" column="20" lean-forward="false" selection-start-line="115" selection-start-column="20" selection-end-line="115" selection-end-column="20" />
+          <folding />
         </state>
       </provider>
     </entry>

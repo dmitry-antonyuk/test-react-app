@@ -35,7 +35,7 @@
 }
 .icon-success:before {
   content: "\e903";
-  color: #425661;
+
 }
 .icon-person:before {
   content: "\e904";
@@ -74,7 +74,7 @@
 }
 .icon__success:before {
   content: "\e903";
-  color: #425661;
+
 }
 .icon__person:before {
   content: "\e904";

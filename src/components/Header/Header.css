@@ -113,6 +113,7 @@ a:hover {
          top: 0;
          bottom: 0;
          right: 0;
+         width: 87px;
 
     }
 }
@@ -124,13 +125,10 @@ a:hover {
 
     $_centered {
 
+    }
 
-     }
-
-    $top-nav_blue-theme {
+    &top-nav_blue-theme {
         background: #a5c4f5;
-
-
     }
 
 
@@ -148,6 +146,10 @@ a:hover {
             background: #fff;
             color: #4688f1;
         }
+        &_active:hover{
+
+            color: #fff;
+        }
         &:hover {
             background: #7baeff;
          }
@@ -157,9 +159,19 @@ a:hover {
 .user-info {
     display: inline-block;
     height: 50px;
+    vertical-align: top;
     &_right {
          float: right;
-     }
+    }
+    &__separator {
+        height: 34px;
+        margin: 8px 15px ;
+        width: 1px;
+        background: #fff;
+        opacity: 0.5;
+        display: inline-block;
+    }
+
 }
 
 .button-icon {
@@ -171,6 +183,7 @@ a:hover {
     font-size: 20px;
     width: 50px;
     text-align: center;
+    vertical-align: top;
     &:hover {
     transition: 0.3s;
     background: #7baeff;
@@ -191,6 +204,7 @@ a:hover {
     margin:0;
     outline: none;
     box-sizing: border-box;
+
 
 
     &__icon {
